@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="MaxCharactersText">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>160</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ResumePathText">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>85</y>
+      <width>399</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PdfPathBut">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>75</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pdf Path</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ResumePathBut">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>100</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Resume Path</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="PdfPathText">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>120</y>
+      <width>399</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StartBut">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>280</y>
+      <width>115</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ResumeBuilderLab">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>35</y>
+      <width>109</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Resume Builder</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="UrlText">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>200</y>
+      <width>399</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="UrlLab">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>URL Here</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MaxCharactersLab">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Max Characters</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>331</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Normally 35, if you have a long name set it lower</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>607</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
